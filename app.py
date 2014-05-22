@@ -7,7 +7,7 @@ from flask.ext.httpauth import HTTPBasicAuth
 from flask import Flask, jsonify, abort, request, make_response, url_for, Response
 
 def get_address():
-	conn = psycopg2.connect("dbname=baygis user=efra password=Tiempo4891 host=107.170.109.146")
+	conn = psycopg2.connect("dbname= user= password= host=")
 
 	def query_db(query):
 		cur = conn.cursor()
